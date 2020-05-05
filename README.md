@@ -1,4 +1,11 @@
 
+![alt text](https://i.ibb.co/YkCTsXy/index.png)
+
+# Что реализовано на данный момент?
+____
+
+- 1. Обучена модель speech-to-text(https://clck.ru/NHxSj). 
+>>>>>>> master
 
 - 2. На гугл-диске лежат следующие файлы: 
 
