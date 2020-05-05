@@ -1,7 +1,7 @@
 import os
 import argparse
-from check_alphabet import check_alphabet
-from CSVgenerator import generate_csv
+from Server.check_alphabet import check_alphabet
+from Server.CSVgenerator import generate_csv
 
 
 def main(args):
