@@ -1,0 +1,9 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:WpfApp">
+    <Style x:Key="MT_Line" TargetType="Rectangle">
+        <Setter Property="Stroke" Value="#E4E8F1"/>
+        <Setter Property="Height" Value="1"/>
+        <Setter Property="VerticalAlignment" Value="Top"/>
+    </Style>
+</ResourceDictionary>

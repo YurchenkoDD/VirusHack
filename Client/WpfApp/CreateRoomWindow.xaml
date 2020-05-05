@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp.CreateRoomWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="CreateRoomWindow" Height="306" Width="315" Style="{StaticResource MT_Window}">
+    <Border Style="{StaticResource MT_BorderWindow}">
+        <Grid Style="{StaticResource MT_GridBase}" MouseDown="Grid_MouseDown" MouseLeftButtonDown="Grid_MouseLeftButtonDown">
+            <Label Style="{StaticResource MT_LabelBase}" Content="Создание комнаты" Margin="30.22,18.25,0,0"/>
+            <Button BorderThickness="0" Margin="12,12" Width="24" Height="24" HorizontalAlignment="Right" VerticalAlignment="Top" Click="Button_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="pack://application:,,,/Resources/Close.png"/>
+                </Button.Background>
+            </Button>
+            <Rectangle Style="{StaticResource MT_Line}" Margin="0,47.7,0,0"/>
+            <Label Style="{StaticResource MT_LabelBase}" Content="Название" Margin="30.22,63.77,0,0"/>
+            <TextBox x:Name="RoomNameTextBox" Style="{StaticResource MT_TextBoxBase}" Margin="30,81,30,0" MaxLength="15"/>
+            <Label Style="{StaticResource MT_LabelBase}" Content="Пароль" Margin="30.22,121.93,0,0"/>
+            <PasswordBox x:Name="PasswordInputBox" Style="{StaticResource MT_PassworBoxBase}" Margin="30,140,30,0"/>
+            <Label Style="{StaticResource MT_LabelBase}" Content="Подтвердите пароль" Margin="30.22,180,0,0"/>
+            <PasswordBox x:Name="PasswordRepeatInputBox" Style="{StaticResource MT_PassworBoxBase}" Margin="30,198,30,0"/>
+            <Button x:Name="CreateButton"  Style="{StaticResource MT_ButtonBase}" Margin="30,0,50,26" Click="CreateButton_Click" Height="32">Создать</Button>
+        </Grid>
+    </Border>
+</Window>
