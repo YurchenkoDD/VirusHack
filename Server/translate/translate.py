@@ -1,7 +1,6 @@
 import argparse
 from googletrans import Translator
 
-
 def rgt(text, langs, times):
     translator = Translator()
 
@@ -9,21 +8,19 @@ def rgt(text, langs, times):
     for i in range(times):
         for lang in langs:
             translation = translator.translate(translation, dest=lang).text
-        translation = translator.translate(translation, dest='en').text
+        translation = translator.translate(translation, dest='ru').text
 
     return translation
 
-
 def main():
     parser = argparse.ArgumentParser(
-        description='Translate text repeatedly using Google Translate. For the keks and memes.')
+        description='Перевод текста с помощью Google Translate')
     group = parser.add_mutually_exclusive_group(required=True)
-    group.add_argument('-t', '--text', type=str, help='Input text.')
-    group.add_argument('-f', '--file', type=str, help='File containing input text.')
-    parser.add_argument('-n', '--num', type=int, help='Number of time to go through the languages.', default=10)
-    parser.add_argument('-o', '--out', type=str, help='File to write output text into.')
-    parser.add_argument('-l', '--langs', type=str, nargs='+', help='ISO 639-1 codes of the languages to use.',
-                        default=['de', 'ko', 'la', 'ja', 'eo'])
+    group.add_argument('-t', '--text', type=str, help='Входной текст:')
+    group.add_argument('-f', '--file', type=str, help='Файл с входным текстом:')
+    parser.add_argument('-o', '--out', type=str, help='Файла для выходного текста:')
+    parser.add_argument('-l', '--langs', type=str, nargs='+', help='.',
+                        default=['en', 'de', 'la', 'it', 'es'])
     args = parser.parse_args()
 
     if args.file:
@@ -32,12 +29,10 @@ def main():
     else:
         text = args.text
 
-    print('[*] "{}..." but translated {} times!'.format(text[:10].strip(), args.num * len(args.langs)))
     result = rgt(text, args.langs, args.num)
     if args.out:
         with open(args.out, mode='w') as f:
             f.write(result)
-        print('[*] Wrote output to {}'.format(args.out))
     else:
         print()
         print(result)
