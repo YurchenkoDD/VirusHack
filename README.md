@@ -1,3 +1,3 @@
 VirusHack Hackaton
 
-![alt text](https://ibb.co/C7csG6M)
+![alt text](https://i.ibb.co/YkCTsXy/index.png)
