@@ -1,0 +1,17 @@
+C:\Users\User1\Desktop\WpfApp\WpfApp\bin\Release\WpfApp.exe.config
+C:\Users\User1\Desktop\WpfApp\WpfApp\bin\Release\WpfApp.exe
+C:\Users\User1\Desktop\WpfApp\WpfApp\bin\Release\WpfApp.pdb
+C:\Users\User1\Desktop\WpfApp\WpfApp\obj\Release\WpfApp.csprojAssemblyReference.cache
+C:\Users\User1\Desktop\WpfApp\WpfApp\obj\Release\Login.g.cs
+C:\Users\User1\Desktop\WpfApp\WpfApp\obj\Release\MainWindow.g.cs
+C:\Users\User1\Desktop\WpfApp\WpfApp\obj\Release\App.g.cs
+C:\Users\User1\Desktop\WpfApp\WpfApp\obj\Release\WpfApp_MarkupCompile.cache
+C:\Users\User1\Desktop\WpfApp\WpfApp\obj\Release\WpfApp_MarkupCompile.lref
+C:\Users\User1\Desktop\WpfApp\WpfApp\obj\Release\Login.baml
+C:\Users\User1\Desktop\WpfApp\WpfApp\obj\Release\MainWindow.baml
+C:\Users\User1\Desktop\WpfApp\WpfApp\obj\Release\WpfApp.g.resources
+C:\Users\User1\Desktop\WpfApp\WpfApp\obj\Release\WpfApp.Properties.Resources.resources
+C:\Users\User1\Desktop\WpfApp\WpfApp\obj\Release\WpfApp.csproj.GenerateResource.cache
+C:\Users\User1\Desktop\WpfApp\WpfApp\obj\Release\WpfApp.csproj.CoreCompileInputs.cache
+C:\Users\User1\Desktop\WpfApp\WpfApp\obj\Release\WpfApp.exe
+C:\Users\User1\Desktop\WpfApp\WpfApp\obj\Release\WpfApp.pdb

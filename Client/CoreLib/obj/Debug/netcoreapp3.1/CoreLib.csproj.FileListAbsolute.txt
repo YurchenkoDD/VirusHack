@@ -1,0 +1,9 @@
+C:\Users\User1\Desktop\WpfApp\CoreLib\bin\Debug\netcoreapp3.1\CoreLib.deps.json
+C:\Users\User1\Desktop\WpfApp\CoreLib\bin\Debug\netcoreapp3.1\CoreLib.dll
+C:\Users\User1\Desktop\WpfApp\CoreLib\bin\Debug\netcoreapp3.1\CoreLib.pdb
+C:\Users\User1\Desktop\WpfApp\CoreLib\obj\Debug\netcoreapp3.1\CoreLib.csprojAssemblyReference.cache
+C:\Users\User1\Desktop\WpfApp\CoreLib\obj\Debug\netcoreapp3.1\CoreLib.csproj.CoreCompileInputs.cache
+C:\Users\User1\Desktop\WpfApp\CoreLib\obj\Debug\netcoreapp3.1\CoreLib.AssemblyInfoInputs.cache
+C:\Users\User1\Desktop\WpfApp\CoreLib\obj\Debug\netcoreapp3.1\CoreLib.AssemblyInfo.cs
+C:\Users\User1\Desktop\WpfApp\CoreLib\obj\Debug\netcoreapp3.1\CoreLib.dll
+C:\Users\User1\Desktop\WpfApp\CoreLib\obj\Debug\netcoreapp3.1\CoreLib.pdb

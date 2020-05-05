@@ -1,0 +1,7 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:WpfApp">
+    <Style x:Key="MT_GridBase" TargetType="Grid">
+        <Setter Property="Opacity" Value="1"/>
+    </Style>
+</ResourceDictionary>

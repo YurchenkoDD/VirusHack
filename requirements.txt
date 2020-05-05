@@ -1,0 +1,4 @@
+googletrans~=2.4.0
+pandas~=1.0.3
+numpy~=1.18.4
+natsort~=7.0.1
